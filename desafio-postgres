@@ -1,1 +1,2 @@
+#Comando de instalação do container do postgres
 docker container run -d --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=docker_pwd -e POSTGRES_USER=docker_usr -e POSTGRES_DB=curso_docker postgres
